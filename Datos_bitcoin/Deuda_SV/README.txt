@@ -1,0 +1,1 @@
+https://estadisticas.bcr.gob.sv/serie/deuda-publica-total
