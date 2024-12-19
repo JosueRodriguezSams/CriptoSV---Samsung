@@ -14,7 +14,21 @@ Este análisis proporciona una base para comprender los posibles efectos de la i
 4. [Estado del proyecto](#EstadoDelProyecto)
 5. [Agradecimientos](#Agradecimientos)
 
-## Arquitectura del proyecto + imagen
+## Arquitectura del proyecto
+
+Nuestro proyecto corre en un kernel de python, haciendo uso de diferentes librerias tales como:
+
+- pandas
+- matplotlib
+- seaborn
+- statsmodels
+- scipy
+
+y todo esto sobre un documento de jupyter notebook, con datos traídos de la web.
+
+Finalmente, alojamos nuestro repositorio en Github
+<br>
+![arquitectura](assets/arquitectura.jpeg)
 
 ## Proceso de desarrollo:
 
@@ -36,53 +50,52 @@ Este análisis proporciona una base para comprender los posibles efectos de la i
 
     ![dataframe_fusionado](assets/dataframe_fusionado.png)<br><br>
 
-- Limpieza de datos
+- Limpieza de datos<br><br>
 
-    - Valores faltantes:
+    - Valores faltantes:<br>
     ![Valores_faltantes](assets/valores_faltantes.png)
-    - Filas duplicadas:
+    - Filas duplicadas:<br>
     ![filas_duplicadas](assets/filas_duplicadas.png)
-    - Valores atípicos:
+    - Valores atípicos:<br>
     ![Valores_atipicos](assets/valores%20atípicos.png)
 
-- Estadísticos:
+- Estadísticos:<br><br>
     - Gráficas lineales:
-        Precio historico del bitcoin:
+        Precio historico del bitcoin:<br>
         ![bitcoin_history](assets/bitcoin_history.png)<br>
-        Reservas internacionales netas:
+        Reservas internacionales netas:<br>
         ![rin](assets/rin.png)<br>
-        Posición de inversión internacional neta:
+        Posición de inversión internacional neta:<br>
         ![niip](assets/niip.png)<br>
-        Producto interno bruto:
+        Producto interno bruto:<br>
         ![pib](assets/pib.png)<br>
-        Índice de precios al consumidor:
+        Índice de precios al consumidor:<br>
         ![ipc](assets/ipc.png)<br>
-        Deusa externa pública:
+        Deusa externa pública:<br>
         ![dep](assets/dep.png)<br><br>
-    - Gráficas de puntos e historigrama (pairplot)
+    - Gráficas de puntos e historigrama (pairplot)<br>
         ![pairplot](assets/pairplot.png)<br><br>
-    - Análisis de normalidad de los datos:
+    - Análisis de normalidad de los datos:<br>
         ![qqplot](assets/qqplot.png)<br><br>
-    - Correlación de los datos
-        ![correlacion](assets/correlacion.png)
+    - Correlación de los datos<br>
+        ![correlacion](assets/correlacion.png)<br><br>
 
 ## Funcionalidades extra:
 
-Ejem 1: Integración del proyecto en una pág web
+### Blog informativo
+#### Descripción
 
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
+Esta funcionalidad extra consta de una página web a modo de blog informativo, donde se muestra nuestro análisis, su imoprtancia, bajo que contexto se hace, y las conclusiones. También explicamos cada variable usada para el análisis
+
+#### Herramientas usadas:
+- html
+- css
+- javascript
 
 
 ## Estado del proyecto
 
-El proyecto se encuentra en una fase avanzada de desarrollo. Se han implementado las funcionalidades principales y se están realizando pruebas para asegurar su correcto funcionamiento. A continuación, se detallan los próximos pasos:
-
-- Realizar pruebas adicionales y corregir posibles errores.
-- Completar la documentación del proyecto.
-- Preparar la versión final para su lanzamiento.
-
-Se espera que el proyecto esté listo para su lanzamiento en las próximas horas.
+El proyecto se encuentra finalizado
 
 ## Agradecimientos
 
